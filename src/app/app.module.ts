@@ -10,6 +10,8 @@ import { ComponentsModule } from './components/components.module';
 
 import { AppComponent } from './app.component';
 
+import {NgxPaginationModule} from 'ngx-pagination';
+
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { TableListComponent } from './table-list/table-list.component';
@@ -29,6 +31,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
     FormsModule,
     HttpModule,
     ComponentsModule,
+    NgxPaginationModule,
     RouterModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({
